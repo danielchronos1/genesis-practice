@@ -1,0 +1,286 @@
+@import url('https://fonts.cdnfonts.com/css/mulish');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+nav {
+    padding-top: 61px;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 850px;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 29px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.346154px;
+    color: #111111;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+}
+
+.hero-leftpart {
+    width: 635px;
+}
+
+.hero-text {
+    margin: 0;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #111111;
+}
+
+.hero-team {
+    margin: 0;
+    margin-bottom: 32px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: -0.423077px;
+    color: #4A4FF2;
+}
+
+.hero-rightpart {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+}
+
+.hero-rightpart hr {
+    margin: 0;
+    height: 2px;
+    margin-bottom: 9px;
+    background: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    width: 30px;
+}
+
+.hero-quote {
+    margin: 0;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
+
+.gallery-container {
+    padding-top: 144px;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    grid-gap: 20px;
+    grid-template-columns: 357px 356px 350px;
+    height: 1960px;
+    margin-bottom: 91px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-flow: wrap;
+    
+}
+
+.column img {
+    width: 100%;
+}
+
+.group-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 101px;
+}
+
+.group-left {
+    width: 635px;
+}
+
+.group-left h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    color: #111111;
+}
+
+.group-center {
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+    margin-right: 70px;
+}
+
+.group-center a {
+    padding-bottom: 10px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #111111;
+    opacity: 0.6;
+}
+
+.group-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.group-right a {
+    padding-bottom: 10px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #111111;
+    opacity: 0.6;
+}
+
+.awards-section hr {
+    width: 1110px;
+    height: 2px;
+    color: #D8D8D8;
+    background: #D8D8D8;
+    margin-bottom: 48px;
+}
+
+.awards-container {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.awards-category {
+    display: flex;
+    flex-direction: column;
+    gap: 143px;
+    margin-right: 160px;
+}
+
+.awards-category h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #111111;
+}
+
+.awards-kit {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    margin-right: 100px;
+}
+
+.awards-kit h1 {
+    margin: 0;
+    margin-bottom: 12px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #111111;
+}
+
+.awards-kit p {
+    width: 195px;
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #111111;
+}
+
+.awards-years {
+    display: flex;
+    flex-direction: column;
+    gap: 143px;
+}
+
+.awards-years h1 {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    color: #111111;
+}
+
+
+.awards-company {
+    margin: 0;
+    margin-right: 350px;
+}
+
+.awards-company h1 {
+    margin: 0;
+}
+
+.award-divide {
+    margin-top: 58px;
+}
+
+.awards-company-css {
+    margin-right: 265px;
+}
+
+.award-divide-footer {
+    margin-top: 58px;
+    margin-bottom: 0 !important;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 667px;
+    margin-top: 106px;
+    margin-bottom: 47px;
+}
+
+.footer-right {
+    display: flex;
+}
+
+.footer-links {
+    margin-right: 95px;
+    display: flex;
+    gap: 30px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.346154px;
+    color: #111111;
+}
+
+.footer-social {
+    display: flex;
+    gap: 24px;
+}
+
+
